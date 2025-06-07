@@ -8,6 +8,7 @@ import { ListUserComponent } from './list-user/list-user.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {MatTableModule} from '@angular/material/table';
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
-    MatTableModule
+    MatTableModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
