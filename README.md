@@ -8,7 +8,8 @@ Projeto de um CRUD (Create, Read, Update, Delete) de usuários desenvolvido como
 
 ## 🖼️ Demonstração
 
-<img src="URL_DA_SUA_IMAGEM_OU_GIF_AQUI" alt="Demonstração do Projeto">
+<img src="![image](https://github.com/user-attachments/assets/74cac64c-38ee-46c5-8c32-2756340defb5)
+" alt="Demonstração do Projeto">
 
 ## ✨ Funcionalidades
 
@@ -31,12 +32,12 @@ Siga os passos abaixo para rodar o projeto em seu ambiente local:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/AsaphGabriel/CadUser02.git](https://github.com/AsaphGabriel/CadUser02.git)
+    git clone [https://github.com/AsaphGabriel/CursoAngular.git](https://github.com/AsaphGabriel/CursoAngular.git)
     ```
 
 2.  **Acesse o diretório do projeto:**
     ```bash
-    cd CadUser02
+    cd CursoAngular
     ```
 
 3.  **Instale as dependências:**
