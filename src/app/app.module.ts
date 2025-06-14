@@ -9,13 +9,18 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatTableModule} from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http';
+import { ListProdutosComponent } from './list-produtos/list-produtos.component';
+import { appRoutingModule } from './app.routing.module';
+import { CarrinhoComponent } from './carrinho/carrinho.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroComponent,
-    ListUserComponent
+    ListUserComponent,
+    ListProdutosComponent,
+    CarrinhoComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatTableModule,
     HttpClientModule,
+    appRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

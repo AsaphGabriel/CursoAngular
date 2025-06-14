@@ -13,7 +13,7 @@ export class ListUsersService {
 
   listarUsuarios(): Observable<IUsuario[]>{
     const headers = new HttpHeaders ({
-      "x-api-key": "reqres-free-v1'",
+      "x-api-key": "reqres-free-v1",
     });
     return this.http.get<{ data: IUsuario[] }>(this.apiURL + 'users?page=2', { headers })
     .pipe(map( (response) => response.data ))

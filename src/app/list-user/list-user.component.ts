@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {IUsuario } from '../models/iusuario';
 import { ListUsersService } from '../services/list-users.service';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-list-user',
@@ -9,10 +10,8 @@ import { ListUsersService } from '../services/list-users.service';
 })
 export class ListUserComponent implements OnInit{
 
-  constructor(private userService: ListUsersService){}
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+  constructor(private userService: ListUsersService, private router: Router){}
+
 
   displayedColumns = ['id', 'first_name', 'last_name', 'email'];
 
@@ -39,7 +38,14 @@ export class ListUserComponent implements OnInit{
     })
   }
 
-  ngOnit(): void{
+  ngOnInit(): void {
     this.listarUsuarios;
+  }
+
+  public abrirProdutos(): void{
+    this.router.navigate(['produtos']);
+  }
+  public abrirCarrinho(): void{
+    this.router.navigate(['carrinho']);
   }
 }
