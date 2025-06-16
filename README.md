@@ -1,27 +1,71 @@
-# CadUser02
+# Cadastro de Usuários em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Angular Material](https://img.shields.io/badge/Angular%20Material-F8BBD0?style=for-the-badge&logo=angular&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Development server
+Projeto de um CRUD (Create, Read, Update, Delete) de usuários desenvolvido como parte do aprendizado do framework Angular. A aplicação permite a visualização, criação, edição e exclusão de usuários em uma interface limpa, utilizando componentes da biblioteca Angular Material.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🖼️ Demonstração
 
-## Code scaffolding
+<img src="![image](https://github.com/user-attachments/assets/74cac64c-38ee-46c5-8c32-2756340defb5)
+" alt="Demonstração do Projeto">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ✨ Funcionalidades
 
-## Build
+* **Listagem de Usuários:** Exibe todos os usuários cadastrados em uma tabela organizada.
+* **Criação de Usuário:** Permite adicionar um novo usuário através de um formulário em um modal.
+* **Edição de Usuário:** Possibilita a alteração dos dados de um usuário existente.
+* **Exclusão de Usuário:** Permite remover um usuário da lista.
+* **Interface com Angular Material:** Utiliza componentes como Tabela, Botões, Ícones e Modais para uma UI moderna.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠️ Tecnologias Utilizadas
 
-## Running unit tests
+* **Angular:** Framework principal para a construção da Single-Page Application (SPA).
+* **TypeScript:** Linguagem base para o desenvolvimento em Angular.
+* **Angular Material:** Biblioteca de componentes de UI para criar uma interface visualmente agradável e consistente.
+* **HTML5 & SCSS:** Estruturação e estilização dos componentes.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Como Executar o Projeto
 
-## Running end-to-end tests
+Siga os passos abaixo para rodar o projeto em seu ambiente local:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone o repositório:**
 
-## Further help
+   ```bash
+   git clone [https://github.com/AsaphGabriel/CursoAngular.git](https://github.com/AsaphGabriel/CursoAngular.git)
+   ```
+2. **Acesse o diretório do projeto:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   cd CursoAngular
+   ```
+3. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+4. **Execute a aplicação:**
+
+   ```bash
+   ng serve
+   ```
+5. Abra seu navegador e acesse `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar algum dos arquivos de origem.
+
+## 📚 Aprendizados
+
+Este projeto foi fundamental para solidificar conhecimentos nos seguintes conceitos do Angular:
+
+* Estrutura de projetos com Angular CLI.
+* Criação e comunicação entre componentes (`@Input()` e `@Output()`).
+* Renderização de listas com a diretiva `*ngFor`.
+* Manipulação de eventos com `(click)`.
+* Integração e uso de componentes da biblioteca Angular Material.
+* (Opcional, se usou) Criação de formulários com `Reactive Forms` ou `Template-Driven Forms`.
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Asaph Gabriel**.
+
+* **LinkedIn:** [linkedin.com/in/asaphgabriel](https://linkedin.com/in/asaphgabriel)
+* **GitHub:** [@AsaphGabriel](https://github.com/AsaphGabriel)
